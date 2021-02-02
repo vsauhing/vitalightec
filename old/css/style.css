@@ -1,0 +1,99 @@
+body{margin:0; padding:0; font-family:Arial; font-size:13px;background:#7C0405;  color: #555;}
+img{border:0;margin:0;padding:0;}
+a{color:#FFF;}
+
+/*HEADER CSS*/
+#Header{width:100%; background:transparent url('images/headerbg.jpg') repeat-x 0 0; height:117px;  border-bottom: 3px solid #F00;}
+.Container{width:900px;margin:0 auto;position:relative;}
+.Logo{float:left;  margin: 19px 0 6px 0;}
+
+.Phone{position:absolute; top:0px; right:0px;background:#D00000 url('images/phone.png') no-repeat 10px 10px;width:105px; height:40px;padding:10px 10px 10px 55px;  border-radius: 0 0 10px 10px;}
+.Phone span{font-size: 16px;  display: block;  color: #fff;  margin: 2px;text-align: right;}
+
+.NavMenu{position:absolute; bottom:0px; right:0px;}
+.NavMenu a{display: block;  width: 120px;  color: #FFF;  float: left;  font-size: 17px;  text-align: center;  margin-left: 10px; text-decoration: none;  height: 42px;padding-top:18px;}
+.NavMenu a:hover,.NavMenu .selected{background:transparent url('images/selected.png') no-repeat 2px 2px;}
+
+
+/*FOOTER CSS*/
+#Content{width:100%;background:#fff;}
+#Content .Container{width:880px;padding:20px 10px;min-height:350px;margin:0 auto;}
+
+
+/*FOOTER CSS*/
+#Footer{width:100%; background:transparent url('images/footerbg.jpg') repeat-x 0 0; height:130px;  border-top: 3px solid #F00;}
+
+#Footer .FooterLogo{width:230px;  padding: 10px 0;}
+.Blocks{border-bottom:1px solid #FFF;padding-bottom:10px;margin-bottom:5px;}
+.Block{float:left; width:272px;text-align:center;padding:0 5px;color:#fff;margin:0 8px;}
+.BlockMiddle{border:1px solid #9E0001;border-top:0;border-bottom:0;margin-top:8px;}
+.BlockMiddle a{color:#fff;text-decoration:none;}
+.BlockMiddle a:hover{text-decoration:underline;}
+
+.Block .Title{background:#F00; padding: 10px 10px 12px 10px; border-radius: 0 0 10px 10px;font-size:15px; font-weight:bold;margin-bottom:10px;}
+.Block .Description{text-align:left!important;line-height:25px;}
+.Block .Description strong{font-size:13px;}
+
+.Social{font-size:15px;font-weight:bold;}
+.Social img{width:30px;display:inline-block; vertical-align:middle;margin-right:5px;}
+
+.FooterCopyright {  width: 100%;  height: 24px;  position: relative;  float: left;  padding-top: 5px;color:#fff;}
+.FooterCopyright .Text {  position: absolute;  left: 5px;}
+.WebAndMkt {  position: absolute;  right: 5px;bottom: 5px;}
+.WebAndMkt a { color: #FFF; text-decoration:none;}
+.WebAndMkt span, .WebAndMkt img {  display: inline-block; vertical-align:middle; margin: 0 2px; }
+
+/** INICIO CSS**/
+.HomeBlock{width:270px; float:left;margin: 10px;text-align:center;display:block;text-decoration:none;color:#fff;}
+.HomeBlock img{display:inherit;}
+.HomeBlock .Title{  background: #C90103;  padding:10px 5px;  text-align: center;  color: #fff;  font-weight: bold;  font-size: 15px; }
+.HomeBlock:hover{text-decoration:underline;}
+
+/** NOSOTROS CSS **/
+.NosotrosBlock{float:left;padding:10px;line-height:21px;}
+.NosotrosBlockMain{width:500px}
+.NosotrosBlockRight{width:260px;margin-right:70px;}
+
+.About{ border-left:5px solid #CD0200; background: #F8F8F8; font-size:15px; font-style:italic;padding:10px; line-height:25px; margin-bottom:20px;}
+.About p{margin:5px 0;}
+.Highlight{color:#CD0200;}
+
+.DoctorItem{border:1px solid #DDD;width:250px;border-radius: 0 0 10px 10px;margin:0 auto;}
+.DoctorItem .Foto{width:250px;  display: inherit;}
+.DoctorItem .Nombre{  background: #C90103;  padding: 5px;  text-align: center;  color: #fff;  font-weight: bold;  font-size: 15px;}
+.DoctorItem .Curriculum{padding:6px;text-align:center;}
+.DoctorItem .Curriculum p{margin:0;margin-bottom:5px;}
+
+/** TRATAMIENTOS CSS**/
+.ServiceBlock{float:left;padding:10px;line-height:21px;}
+.ServiceItems{width:550px;  min-height: 545px;}
+.ServicesSelector{width:260px;margin-right:20px;}
+
+.ItemSelector{opacity: 0.5;  filter: Alpha(opacity=50);background:#F50000;margin-bottom:25px; cursor:pointer;}
+.ItemSelector img{display:inherit;width:258px;padding:1px 1px 0 1px;}
+.SelectorActive{ opacity: 1!important;  filter: Alpha(opacity=100)!important; cursor:default!important;background:#F50000!important;}
+
+.TratamientoInfo .Title{  padding: 5px 10px;color:#CD0200; font-weight:bold;font-size:15px;border-left: 3px solid #CD0200; background: #F8F8F8;}
+
+/** CONTACTOS CSS **/
+.ContactBlock{float:left;padding:10px;line-height:21px;}
+.ContactBlockMain{width:500px}
+.ContactBlockLeft{width:320px;margin-left:20px;}
+.ContactBlockLeft img{width:300px;border:1px solid #ddd;padding:6px;border-radius:5px;}
+
+.ContactForm{ padding: 20px; background:#fff url('images/bgform.png') repeat 0 2px; box-shadow: 5px 5px 10px #F5F5F5;margin-top:20px;  border: 1px solid #EDEDED;border-top:0;}
+.ContactForm input, .ContactForm textarea { padding:5px 10px; width:425px;margin:5px 0 10px 0; }
+.ContactForm textarea{ padding:5px 10px; width:425px;  resize: none;}
+.ContactForm .required{ color:#f00;font-weight:bold;}
+
+.BtnSubmit{display: block;  width: 150px!important;  margin: 0 auto!important;  color: #FFF;  BACKGROUND: #CD0200;  BORDER-radius: 5px;  border: 1px solid #F00;cursor:pointer;}
+
+.Error, .Success{border: 1px solid #f00;  background: #FFDCDC;  padding: 5px 10px;  border-radius: 0 15px; display:block;}
+.Success{border: 1px solid #1AFF00!important; background: #DCFFDC!important;}
+
+
+.ContactInfo{margin:0 0 15px 0;padding:5px;}
+.ContactInfo .Title{color: #FFF;  background: #CD0200;  font-size: 15px;  text-align: center;  margin: 5px 0;  FONT-weight: bold;  padding: 5px 0;}
+.ContactInfo a{ color:#009EFF;}
+.ContactInfo strong{font-size:14px;}
+.ContactInfo .Direccion{ margin-bottom:10px;display:block;font-size: 15px; text-align: center;  color: #CD0200;}

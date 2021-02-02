@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{color: #333; font-family: 'Montserrat', sans-serif; }
+
+.leftData{text-align: left;}
+.rightData{text-align: right;}
+.justifyData{text-align: justify;}
+.centerData{text-align: center;}
+.content{padding: 1.5rem 0 2.5rem 0;}
+.TxtColor1 {color: #af0505;font-style: italic;}
+
+.navbar{background: linear-gradient(#831516, #c3110f)!important; margin: 0!important; border-radius: 0!important; border-bottom: 2px solid #e81e0d; width: 100%; z-index: 100; padding: 0;}
+.navbar.affix{background: linear-gradient(#831516, #c3110f)!important;}
+
+
+.navbar-toggle{border: 2px ridge #fff!important; }
+.navbar-toggle:hover, .navbar-toggle:focus { background-color: #851415!important; }
+
+.navbar-brand{padding: 0;}
+.navbar-brand img{ padding: 0.4rem 1rem; height: 65px;}
+.navbar-nav > li { margin: 0;}
+.navbar-nav a { color:#fff!important; text-shadow: 0 0 2px #fff!important; font-size: 1rem; padding: 0.625rem 1rem!important;line-height: 40px!important;}
+.navbar-nav a:hover { color:none;}
+.navbar-nav a:hover, .navbar-nav a:focus{background: #A00000!important; box-shadow: inset 0 0 2px #000;}
+.navbar-nav .selected {background: #790000!important; box-shadow: inset 0 0 2px #000;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: #8a0000;}
+.navbar-inverse {border-color: #8a0000;}
+
+.SectionTitle{color:#EEE; padding: 0.5rem; background: linear-gradient(#a5121299, #ba110f99)!important;text-transform: uppercase;margin-bottom: 1rem;font-weight: bold;}
+.SubTitle {color:#af0505;;text-transform: uppercase;font-weight: bold; padding: 0.5rem; margin-bottom: 1.5rem; border-bottom: 0.5px solid #bbb; }
+
+.Parallax{background-attachment: fixed; background-size: cover; color:#fff; text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;}
+.Parallax .section-subtitle{color:#FFF; border: 1px solid #30383e; border-width: 1px 0;} 
+.Parallax .Title{font-size: 1.4rem!important; font-weight: 600; color: #FFF; margin-bottom: 1rem;}
+.Parallax a, .Parallax a:hover, .Parallax a:focus{color:#FFF;}
+
+/***INICIO CSS STAR ***/
+.HomeLinks>div {margin-bottom: 1rem;}
+.HomeLinks .SubTitle {margin-bottom: 1rem;}
+.HomeLinks img {border: 3px ridge #8a0000;}
+.HomeLinks a:hover img {transform: scale(1.03);}
+.BgBanner{ padding:2rem 0; background: #333 url(../img/bg-banner.jpg) center center repeat; max-height: 600px; overflow: hidden; }
+
+.Slogan{font-weight: bold; color: #bc2e2e; text-shadow: 2px 0 0 #FFF, -2px 0 0 #FFF, 0 2px 0 #FFF, 0 -2px 0 #FFF, 2px 2px #FFF, -2px -2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF; margin-bottom:1rem;}
+
+/***NOSOTROS CSS STAR ***/
+.DoctorItem {border: 1px solid #DDD;box-shadow: 0 0 3px #AAA; border-radius: 0 0 10px 10px;max-width: 400px;margin:0 auto 1rem auto;}
+.DoctorItem .Nombre {background: #af0505;padding: 5px;text-align: center;color: #fff;font-weight: bold;}
+.DoctorItem .Curriculum {padding: 1rem 0.3rem;}
+.DoctorItem .ProfilePhoto {text-align: center;}
+.DoctorItem .ProfilePhoto img {display:inline-block;}
+.NosotrosInfo {border-left: 4px solid #af0505;padding: 1rem; border-right: 4px solid #af0505;font-style: italic;margin-bottom: 1rem;}
+
+/*** TRATAMIENTO CSS - START ***/
+.ListItems {list-style: none;}
+.ListItems li {position: relative; padding: 0 0 0 26px;}
+.ListItems li:before { content: "\f00c";  position: absolute;  left: 0;  top: 3px;  font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; transform: translate(0, 0); color: #af0505; }
+.Foto img {width:100%; max-width: 300px;display: inline-block;margin-bottom: 1rem;}
+
+/*** PREGUNTAS CSS - START ***/
+.BgPreguntas{ padding:5rem 0; background: #000 url(../img/banner-preguntas.jpg) center center repeat; }
+.PreguntaItem{margin-bottom: 1rem;}
+.PreguntaItem .SubTitle{margin-bottom: 0.5rem;}
+.PreguntaItem .ImgPreg {margin: 0 auto; display: block; margin-bottom:0.5rem;}
+
+/***CONTACTO CSS STAR ***/
+.BgContact{ padding:5rem 0; background: #000 url(../img/banner-contacto.jpg) center center repeat; }
+.ContactForm {padding: 1rem; border:1px solid #ddd; margin-bottom: 1rem; border-radius: 5px; box-shadow: 0 0 3px #AAA;}
+.ContactForm input, .ContactForm textarea {width: 100%; border: 1px solid #ccc;}
+.ContactForm .BtnSubmit {background: linear-gradient(#c3110f, #831516);}
+.SocialIcons a {padding: 7px; border: 1px solid #333; border-radius: 30px; box-shadow: 0 0 1px #ccc; font-size: 24px; width: 40px; height: 40px; text-align: center; margin: 0.25rem; color: #333; display: inline-block; line-height: 24px;}
+.SocialIcons a:hover{background: radial-gradient(#c3110f, #831516); color:#fff!important; }
+
+.ContactInfo a{color:#333;}
+.ContactInfo a:hover{color:#af0505; text-decoration: none;}
+#Contactos .alert{ padding: 0.25rem 0.5rem;}
+
+/*** SLICK CSS - START ***/
+.slick-initialized .slick-slide {margin: 5px; }
+
+.slick-slide{transform: scale(0.92); opacity: 0.7; filter: alpha(opacity=70);  -webkit-filter: grayscale(50%); filter: grayscale(50%); }
+.slick-slide img{border:4px solid #FFF; background: #af0505;}
+.slick-current{transform: scale(1); opacity: 1; filter: alpha(opacity=100); -webkit-filter: grayscale(0%); filter: grayscale(0%);}
+
+.slick-dots { width: 100%!important; }
+.slick-dots li, .slick-dots li button{width: 15px!important; height: 15px!important;}
+.slick-dots .slick-active button:before { opacity: 1!important; color: #192b47!important; }
+.slick-dots li button:before { opacity: 0.5!important; font-size: 13px!important; color: #5c6b84!important; }
+
+.slick-prev, .slick-next { z-index: 9!important; width: 2rem!important; height: 2rem!important; }
+.slick-prev { left: 1rem!important; }
+.slick-next { right: 1rem!important; }
+.slick-next:before { float: right; }
+.slick-prev:before, .slick-next:before {font-size: 2rem!important; line-height: 2rem!important;color: #192b47!important;}
+
+
+/*** FOOTER CSS - START ***/
+#footer{background: linear-gradient(#831516, #c3110f)!important; padding: 1.5rem 0;color:#fff;}
+.footer-title {font-size: 1.4rem!important;font-weight: 600;color: #FFF;margin-bottom: 1rem;border-bottom: 1px solid #fff;text-align: center;}
+.FooterBlock {overflow: hidden;}
+.ContactInfo {margin-bottom: 1rem;}
+#footer a{color:#fff!important;}
+#footer .SocialIcons a{color:#fff;border-color: #fff;}
+
+.GlFont{font-size: 3.2rem; line-height: 3.7rem;}
+.XlFont{font-size: 2.5rem; line-height: 3rem;}
+.LgFont{font-size: 2.1rem; line-height: 2.6rem;}
+.MdFont{font-size: 1.2rem; }
+.SmFont{font-size: 1.05rem;}
+.XsFont{font-size: 0.75rem; }
+
+.fb-page{background: #FFF; min-height: 10rem;}
+
+@media screen and (max-width: 1140px){
+
+	.GlFont{font-size: 3rem; line-height: 3.5rem;}
+	.XlFont{font-size: 2.3rem; line-height: 2.8rem;}
+	.LgFont{font-size: 1.9rem; line-height: 2.6rem;}
+	.MdFont{font-size: 1.15rem; }
+	.SmFont{font-size: 1rem; }
+    .XsFont{font-size: 0.7rem; }
+}
+
+@media screen and (max-width: 991px){
+	.GlFont{font-size: 2.8rem; line-height: 3.3rem;}
+	.XlFont{font-size: 2.2rem; line-height: 2.7rem;}
+	.LgFont{font-size: 1.8rem; line-height: 2.3rem;}
+	.MdFont{font-size: 1.1rem; }
+	.SmFont{font-size: 0.975rem;}
+    .XsFont{font-size: 0.675rem; }
+}
+
+@media screen and (max-width: 840px){
+	.GlFont{font-size: 2.6rem; line-height: 3.1rem;}
+	.XlFont{font-size: 2rem; line-height: 2.5rem;}
+	.LgFont{font-size: 1.6rem; line-height: 2.1rem;}
+	.MdFont{font-size: 1.05rem; }
+	.SmFont{font-size: 0.95rem; }
+	.XsFont{font-size: 0.65rem;}
+}
+
+@media screen and (max-width: 790px){
+    .navbar-nav a {font-size: 0.9rem;}
+}
+
+@media screen and (max-width: 768px){
+    .navbar-brand img {height: 57px;}
+    .navbar-nav a {line-height: 25px;}
+}
+
+@media screen and (max-width: 543px){
+    .GlFont{font-size: 2.4rem; line-height: 2.9rem;}
+	.XlFont{font-size: 1.8rem; line-height: 2.3rem;}
+	.LgFont{font-size: 1.4rem; line-height: 1.9rem;}
+    .MdFont{font-size: 1rem;}
+    
+    .leftData, .rightData, .justifyData{text-align: center;}
+    
+}
+
+@media screen and (max-width: 380px){
+
+	.GlFont{font-size: 2.2rem; line-height: 2.7rem;}
+	.XlFont{font-size: 1.6rem; line-height: 2.1rem;}
+	.LgFont{font-size: 1.2rem; line-height: 1.7rem;}
+}
